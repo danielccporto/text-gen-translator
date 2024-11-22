@@ -1,0 +1,26 @@
+# Ignorar bytecode e caches do Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorar ambiente virtual
+venv/
+.env
+.env.*
+
+# Ignorar logs e arquivos temporários
+*.log
+*.tmp
+
+# Ignorar configurações específicas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar pacotes gerados
+*.egg-info/
+dist/
+build/
+
+# Ignorar cache da biblioteca Transformers
+.cache/
+transformers_cache/
